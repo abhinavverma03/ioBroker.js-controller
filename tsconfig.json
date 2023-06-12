@@ -15,9 +15,10 @@
     "noEmit": true,
     // Avoid unnecessary runtime imports
     "importsNotUsedAsValues": "error",
+    "ignoreDeprecations": "5.0",
     // Avoid TS errors in external dependencies
     "skipLibCheck": true,
-    // Enable syntax help for importes JSON files
+    // Enable syntax help for imports JSON files
     "resolveJsonModule": true,
     "useUnknownInCatchVariables": false,
     "typeRoots": [
